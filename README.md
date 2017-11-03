@@ -3,7 +3,7 @@ This is a Mathematica script to handle the linear power sums, i.e. the expressio
 
 ## Usage
 Load `linearpowersum.m` into Mathematica.
-Then, for example, the expression a*x^m+b*y^m can be represented as linPS[{a,b},{x,y},m]. It symbolically manipulates such expressions and related basic operations (such as scalar multiplication, addition, multiplication, and exponentiation).
+Then, for example, the expression `a*x^m+b*y^m` can be represented as `linPS[{a,b},{x,y},m]`. It symbolically manipulates such expressions and related basic operations (such as scalar multiplication, addition, multiplication, and exponentiation).
 If you evaluate
 ```
 linPS[{a, b}, {x, y}, m]^2
