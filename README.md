@@ -12,7 +12,7 @@ then it returns
 ```
 linPS[{a^2, 2 a b, b^2}, {x^2, x y, y^2}, m]
 ```
-In the place of `m`, you can put a linear polynomial in `m` with integer coefficients or an integer. For example,
+Instead of `m`, you can put a linear polynomial in `m` with integer coefficients or an integer. For example,
 ```
 2 linPS[{a, b}, {x, y}, 3 m - 1] + linPS[{c}, {z}, 2 m]
 ```
